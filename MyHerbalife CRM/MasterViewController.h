@@ -10,13 +10,12 @@
 
 @class DetailViewController;
 
-#import <CoreData/CoreData.h>
-
-@interface MasterViewController : UITableViewController <NSFetchedResultsControllerDelegate>
+@interface MasterViewController : UITableViewController
 
 @property (strong, nonatomic) DetailViewController *detailViewController;
+@property (strong, nonatomic) id selectedItem;
 
-@property (strong, nonatomic) NSFetchedResultsController *fetchedResultsController;
-@property (strong, nonatomic) NSManagedObjectContext *managedObjectContext;
++ (NSString *)ItemSelectionChangedNotification;
 
 @end
+

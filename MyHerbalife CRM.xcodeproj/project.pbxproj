@@ -7,6 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA6D36CA186FC06800B01ADC /* avatar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DA6D36C9186FC06800B01ADC /* avatar.jpg */; };
+		DA6D36D1186FD17600B01ADC /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DA6D36D0186FD17600B01ADC /* CollectionViewCell.m */; };
+		DA6D36EA187064AB00B01ADC /* angry_birds_cake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DA6D36D9187064AB00B01ADC /* angry_birds_cake.jpg */; };
+		DA6D36EB187064AB00B01ADC /* creme_brelee.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DA6D36DA187064AB00B01ADC /* creme_brelee.jpg */; };
+		DA6D36EC187064AB00B01ADC /* egg_benedict.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DA6D36DB187064AB00B01ADC /* egg_benedict.jpg */; };
+		DA6D36ED187064AB00B01ADC /* full_breakfast.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DA6D36DC187064AB00B01ADC /* full_breakfast.jpg */; };
+		DA6D36EE187064AB00B01ADC /* green_tea.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DA6D36DD187064AB00B01ADC /* green_tea.jpg */; };
+		DA6D36EF187064AB00B01ADC /* ham_and_cheese_panini.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DA6D36DE187064AB00B01ADC /* ham_and_cheese_panini.jpg */; };
+		DA6D36F0187064AB00B01ADC /* ham_and_egg_sandwich.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DA6D36DF187064AB00B01ADC /* ham_and_egg_sandwich.jpg */; };
+		DA6D36F1187064AB00B01ADC /* hamburger.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DA6D36E0187064AB00B01ADC /* hamburger.jpg */; };
+		DA6D36F2187064AB00B01ADC /* instant_noodle_with_egg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DA6D36E1187064AB00B01ADC /* instant_noodle_with_egg.jpg */; };
+		DA6D36F3187064AB00B01ADC /* japanese_noodle_with_pork.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DA6D36E2187064AB00B01ADC /* japanese_noodle_with_pork.jpg */; };
+		DA6D36F4187064AB00B01ADC /* mushroom_risotto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DA6D36E3187064AB00B01ADC /* mushroom_risotto.jpg */; };
+		DA6D36F5187064AB00B01ADC /* noodle_with_bbq_pork.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DA6D36E4187064AB00B01ADC /* noodle_with_bbq_pork.jpg */; };
+		DA6D36F6187064AB00B01ADC /* photo-frame.png in Resources */ = {isa = PBXBuildFile; fileRef = DA6D36E5187064AB00B01ADC /* photo-frame.png */; };
+		DA6D36F7187064AB00B01ADC /* starbucks_coffee.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DA6D36E6187064AB00B01ADC /* starbucks_coffee.jpg */; };
+		DA6D36F8187064AB00B01ADC /* thai_shrimp_cake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DA6D36E7187064AB00B01ADC /* thai_shrimp_cake.jpg */; };
+		DA6D36F9187064AB00B01ADC /* vegetable_curry.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DA6D36E8187064AB00B01ADC /* vegetable_curry.jpg */; };
+		DA6D36FA187064AB00B01ADC /* white_chocolate_donut.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DA6D36E9187064AB00B01ADC /* white_chocolate_donut.jpg */; };
 		DAA7E339185E58C000BC2246 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAA7E338185E58C000BC2246 /* Foundation.framework */; };
 		DAA7E33B185E58C000BC2246 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAA7E33A185E58C000BC2246 /* CoreGraphics.framework */; };
 		DAA7E33D185E58C000BC2246 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAA7E33C185E58C000BC2246 /* UIKit.framework */; };
@@ -25,6 +44,8 @@
 		DAA7E363185E58C000BC2246 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAA7E33E185E58C000BC2246 /* CoreData.framework */; };
 		DAA7E36B185E58C000BC2246 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DAA7E369185E58C000BC2246 /* InfoPlist.strings */; };
 		DAA7E36D185E58C000BC2246 /* MyHerbalife_CRMTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA7E36C185E58C000BC2246 /* MyHerbalife_CRMTests.m */; };
+		DAA7E378185E5A7600BC2246 /* ExpTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA7E377185E5A7600BC2246 /* ExpTabBarController.m */; };
+		DAA89C4A186FB21900793437 /* DetailViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA89C49186FB21900793437 /* DetailViewController2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +59,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DA6D36C9186FC06800B01ADC /* avatar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = avatar.jpg; sourceTree = "<group>"; };
+		DA6D36CF186FD17600B01ADC /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
+		DA6D36D0186FD17600B01ADC /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
+		DA6D36D9187064AB00B01ADC /* angry_birds_cake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = angry_birds_cake.jpg; sourceTree = "<group>"; };
+		DA6D36DA187064AB00B01ADC /* creme_brelee.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = creme_brelee.jpg; sourceTree = "<group>"; };
+		DA6D36DB187064AB00B01ADC /* egg_benedict.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = egg_benedict.jpg; sourceTree = "<group>"; };
+		DA6D36DC187064AB00B01ADC /* full_breakfast.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = full_breakfast.jpg; sourceTree = "<group>"; };
+		DA6D36DD187064AB00B01ADC /* green_tea.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = green_tea.jpg; sourceTree = "<group>"; };
+		DA6D36DE187064AB00B01ADC /* ham_and_cheese_panini.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ham_and_cheese_panini.jpg; sourceTree = "<group>"; };
+		DA6D36DF187064AB00B01ADC /* ham_and_egg_sandwich.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ham_and_egg_sandwich.jpg; sourceTree = "<group>"; };
+		DA6D36E0187064AB00B01ADC /* hamburger.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hamburger.jpg; sourceTree = "<group>"; };
+		DA6D36E1187064AB00B01ADC /* instant_noodle_with_egg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = instant_noodle_with_egg.jpg; sourceTree = "<group>"; };
+		DA6D36E2187064AB00B01ADC /* japanese_noodle_with_pork.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = japanese_noodle_with_pork.jpg; sourceTree = "<group>"; };
+		DA6D36E3187064AB00B01ADC /* mushroom_risotto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mushroom_risotto.jpg; sourceTree = "<group>"; };
+		DA6D36E4187064AB00B01ADC /* noodle_with_bbq_pork.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = noodle_with_bbq_pork.jpg; sourceTree = "<group>"; };
+		DA6D36E5187064AB00B01ADC /* photo-frame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photo-frame.png"; sourceTree = "<group>"; };
+		DA6D36E6187064AB00B01ADC /* starbucks_coffee.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = starbucks_coffee.jpg; sourceTree = "<group>"; };
+		DA6D36E7187064AB00B01ADC /* thai_shrimp_cake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = thai_shrimp_cake.jpg; sourceTree = "<group>"; };
+		DA6D36E8187064AB00B01ADC /* vegetable_curry.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vegetable_curry.jpg; sourceTree = "<group>"; };
+		DA6D36E9187064AB00B01ADC /* white_chocolate_donut.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = white_chocolate_donut.jpg; sourceTree = "<group>"; };
 		DAA7E335185E58C000BC2246 /* MyHerbalife CRM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MyHerbalife CRM.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAA7E338185E58C000BC2246 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DAA7E33A185E58C000BC2246 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -61,6 +102,10 @@
 		DAA7E368185E58C000BC2246 /* MyHerbalife CRMTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyHerbalife CRMTests-Info.plist"; sourceTree = "<group>"; };
 		DAA7E36A185E58C000BC2246 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DAA7E36C185E58C000BC2246 /* MyHerbalife_CRMTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyHerbalife_CRMTests.m; sourceTree = "<group>"; };
+		DAA7E376185E5A7600BC2246 /* ExpTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExpTabBarController.h; sourceTree = "<group>"; };
+		DAA7E377185E5A7600BC2246 /* ExpTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExpTabBarController.m; sourceTree = "<group>"; };
+		DAA89C48186FB21900793437 /* DetailViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController2.h; sourceTree = "<group>"; };
+		DAA89C49186FB21900793437 /* DetailViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController2.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +134,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DA6D36CB186FC09500B01ADC /* images */ = {
+			isa = PBXGroup;
+			children = (
+				DA6D36D8187064AB00B01ADC /* RecipePhotoImagePack */,
+				DA6D36C9186FC06800B01ADC /* avatar.jpg */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		DA6D36D8187064AB00B01ADC /* RecipePhotoImagePack */ = {
+			isa = PBXGroup;
+			children = (
+				DA6D36D9187064AB00B01ADC /* angry_birds_cake.jpg */,
+				DA6D36DA187064AB00B01ADC /* creme_brelee.jpg */,
+				DA6D36DB187064AB00B01ADC /* egg_benedict.jpg */,
+				DA6D36DC187064AB00B01ADC /* full_breakfast.jpg */,
+				DA6D36DD187064AB00B01ADC /* green_tea.jpg */,
+				DA6D36DE187064AB00B01ADC /* ham_and_cheese_panini.jpg */,
+				DA6D36DF187064AB00B01ADC /* ham_and_egg_sandwich.jpg */,
+				DA6D36E0187064AB00B01ADC /* hamburger.jpg */,
+				DA6D36E1187064AB00B01ADC /* instant_noodle_with_egg.jpg */,
+				DA6D36E2187064AB00B01ADC /* japanese_noodle_with_pork.jpg */,
+				DA6D36E3187064AB00B01ADC /* mushroom_risotto.jpg */,
+				DA6D36E4187064AB00B01ADC /* noodle_with_bbq_pork.jpg */,
+				DA6D36E5187064AB00B01ADC /* photo-frame.png */,
+				DA6D36E6187064AB00B01ADC /* starbucks_coffee.jpg */,
+				DA6D36E7187064AB00B01ADC /* thai_shrimp_cake.jpg */,
+				DA6D36E8187064AB00B01ADC /* vegetable_curry.jpg */,
+				DA6D36E9187064AB00B01ADC /* white_chocolate_donut.jpg */,
+			);
+			path = RecipePhotoImagePack;
+			sourceTree = "<group>";
+		};
 		DAA7E32C185E58C000BC2246 = {
 			isa = PBXGroup;
 			children = (
@@ -128,8 +206,15 @@
 				DAA7E34C185E58C000BC2246 /* Main.storyboard */,
 				DAA7E352185E58C000BC2246 /* MasterViewController.h */,
 				DAA7E353185E58C000BC2246 /* MasterViewController.m */,
+				DAA7E376185E5A7600BC2246 /* ExpTabBarController.h */,
+				DAA7E377185E5A7600BC2246 /* ExpTabBarController.m */,
 				DAA7E355185E58C000BC2246 /* DetailViewController.h */,
 				DAA7E356185E58C000BC2246 /* DetailViewController.m */,
+				DAA89C48186FB21900793437 /* DetailViewController2.h */,
+				DAA89C49186FB21900793437 /* DetailViewController2.m */,
+				DA6D36CF186FD17600B01ADC /* CollectionViewCell.h */,
+				DA6D36D0186FD17600B01ADC /* CollectionViewCell.m */,
+				DA6D36CB186FC09500B01ADC /* images */,
 				DAA7E358185E58C000BC2246 /* Images.xcassets */,
 				DAA7E34F185E58C000BC2246 /* MyHerbalife_CRM.xcdatamodeld */,
 				DAA7E341185E58C000BC2246 /* Supporting Files */,
@@ -242,9 +327,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA6D36F2187064AB00B01ADC /* instant_noodle_with_egg.jpg in Resources */,
+				DA6D36EF187064AB00B01ADC /* ham_and_cheese_panini.jpg in Resources */,
+				DA6D36F5187064AB00B01ADC /* noodle_with_bbq_pork.jpg in Resources */,
+				DA6D36F1187064AB00B01ADC /* hamburger.jpg in Resources */,
+				DA6D36EA187064AB00B01ADC /* angry_birds_cake.jpg in Resources */,
 				DAA7E359185E58C000BC2246 /* Images.xcassets in Resources */,
+				DA6D36F0187064AB00B01ADC /* ham_and_egg_sandwich.jpg in Resources */,
 				DAA7E345185E58C000BC2246 /* InfoPlist.strings in Resources */,
+				DA6D36F4187064AB00B01ADC /* mushroom_risotto.jpg in Resources */,
+				DA6D36F9187064AB00B01ADC /* vegetable_curry.jpg in Resources */,
+				DA6D36F8187064AB00B01ADC /* thai_shrimp_cake.jpg in Resources */,
+				DA6D36FA187064AB00B01ADC /* white_chocolate_donut.jpg in Resources */,
+				DA6D36CA186FC06800B01ADC /* avatar.jpg in Resources */,
+				DA6D36F6187064AB00B01ADC /* photo-frame.png in Resources */,
 				DAA7E34E185E58C000BC2246 /* Main.storyboard in Resources */,
+				DA6D36F7187064AB00B01ADC /* starbucks_coffee.jpg in Resources */,
+				DA6D36EC187064AB00B01ADC /* egg_benedict.jpg in Resources */,
+				DA6D36EE187064AB00B01ADC /* green_tea.jpg in Resources */,
+				DA6D36ED187064AB00B01ADC /* full_breakfast.jpg in Resources */,
+				DA6D36EB187064AB00B01ADC /* creme_brelee.jpg in Resources */,
+				DA6D36F3187064AB00B01ADC /* japanese_noodle_with_pork.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,8 +367,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				DAA7E357185E58C000BC2246 /* DetailViewController.m in Sources */,
+				DAA89C4A186FB21900793437 /* DetailViewController2.m in Sources */,
 				DAA7E354185E58C000BC2246 /* MasterViewController.m in Sources */,
+				DA6D36D1186FD17600B01ADC /* CollectionViewCell.m in Sources */,
 				DAA7E34B185E58C000BC2246 /* AppDelegate.m in Sources */,
+				DAA7E378185E5A7600BC2246 /* ExpTabBarController.m in Sources */,
 				DAA7E351185E58C000BC2246 /* MyHerbalife_CRM.xcdatamodeld in Sources */,
 				DAA7E347185E58C000BC2246 /* main.m in Sources */,
 			);
@@ -478,6 +584,7 @@
 				DAA7E372185E58C000BC2246 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DAA7E373185E58C000BC2246 /* Build configuration list for PBXNativeTarget "MyHerbalife CRMTests" */ = {
 			isa = XCConfigurationList;
@@ -486,6 +593,7 @@
 				DAA7E375185E58C000BC2246 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

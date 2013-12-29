@@ -1,16 +1,17 @@
 //
-//  DetailViewController.m
+//  DetailViewController2.m
 //  MyHerbalife CRM
 //
-//  Created by luis cabarique on 12/15/13.
+//  Created by luis cabarique on 12/28/13.
 //  Copyright (c) 2013 Luis Cabarique. All rights reserved.
 //
 
-#import "DetailViewController.h"
+#import "DetailViewController2.h"
 #import "MasterViewController.h"
+#import "CollectionViewCell.h"
 
-@interface DetailViewController () {
-    NSArray *recipePhotos;
+@interface DetailViewController2 () {
+    NSArray *recipeImages;
 }
 
 @property (strong, nonatomic) UIPopoverController *masterPopoverController;
@@ -18,7 +19,7 @@
 - (void)configureView;
 @end
 
-@implementation DetailViewController
+@implementation DetailViewController2
 
 @synthesize detailItem = _detailItem;
 @synthesize detailDescriptionLabel = _detailDescriptionLabel;
@@ -63,11 +64,41 @@
     }
 }
 
+#pragma mark collection view cell layout / size
+
+
+- (UIEdgeInsets)collectionView:(UICollectionView*)collectionView layout:(UICollectionViewLayout *)collectionViewLayout insetForSectionAtIndex:(NSInteger)section {
+    return UIEdgeInsetsMake(0, 0, 0, 0); // top, left, bottom, right
+}
+
+- (CGFloat)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout minimumInteritemSpacingForSectionAtIndex:(NSInteger)section {
+    
+    return 5.0;
+}
+
+- (NSInteger)collectionView:(UICollectionView *)view numberOfItemsInSection:(NSInteger)section
+{
+    return recipeImages.count;
+}
+
+- (UICollectionViewCell *)collectionView:(UICollectionView *)cv cellForItemAtIndexPath:(NSIndexPath *)indexPath
+{
+    static NSString *identifier = @"CollectionViewCell";
+    
+    CollectionViewCell *cell = [cv dequeueReusableCellWithReuseIdentifier:identifier forIndexPath:indexPath];
+    
+    UIImageView *recipeImageView = (UIImageView *)[cell viewWithTag:100];
+    recipeImageView.image = [UIImage imageNamed:[recipeImages objectAtIndex:indexPath.row]];
+    
+    return cell;
+}
+
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    recipePhotos = [NSArray arrayWithObjects:@"angry_birds_cake.jpg", @"creme_brelee.jpg", @"egg_benedict.jpg", @"full_breakfast.jpg", @"green_tea.jpg", @"ham_and_cheese_panini.jpg", @"ham_and_egg_sandwich.jpg", @"hamburger.jpg", @"instant_noodle_with_egg.jpg", @"japanese_noodle_with_pork.jpg", @"mushroom_risotto.jpg", @"noodle_with_bbq_pork.jpg", @"starbucks_coffee.jpg", @"thai_shrimp_cake.jpg", @"vegetable_curry.jpg", @"white_chocolate_donut.jpg", nil];
+    recipeImages = [NSArray arrayWithObjects:@"angry_birds_cake.jpg", @"creme_brelee.jpg", @"egg_benedict.jpg", @"full_breakfast.jpg", @"green_tea.jpg", @"ham_and_cheese_panini.jpg", @"ham_and_egg_sandwich.jpg", @"hamburger.jpg", @"instant_noodle_with_egg.jpg", @"japanese_noodle_with_pork.jpg", @"mushroom_risotto.jpg", @"noodle_with_bbq_pork.jpg", @"starbucks_coffee.jpg", @"thai_shrimp_cake.jpg", @"vegetable_curry.jpg", @"white_chocolate_donut.jpg", nil];
 
     [self configureView];
 }
@@ -108,6 +139,9 @@
     }
 }
 
+-(IBAction)shareButtonTapped:(id)sender {
+    // TODO
+}
 
 #pragma mark - Split view
 
